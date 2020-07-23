@@ -8,6 +8,6 @@
 </head>
 <body>
 		<h3 style="color: red;">${lableText}</h3>
-		
+		<h3>${demoApiKey}</h3>
 </body>
 </html>
