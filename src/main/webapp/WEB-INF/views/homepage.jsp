@@ -9,5 +9,7 @@
 <body>
 		<h3 style="color: red;">${lableText}</h3>
 		<h3>${demoApiKey}</h3>
+		<h3 style="color: red;">Database Name</h3>
+		<h3>${databaseName}</h3>
 </body>
 </html>

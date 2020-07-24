@@ -14,12 +14,15 @@ public class FranceConfigController {
 	@Value("${demo.api.key}")
 	String demoApiKey;
 	
+	@Value("${database.name}")
+	String databaseName;
 	
 	@RequestMapping("/home")
 	public String getHomepage(Model model)
 	{
 		model.addAttribute("lableText", "Demo API Key");
 		model.addAttribute("demoApiKey", demoApiKey);
+		model.addAttribute("databaseName", databaseName);
 		
 		return "homepage";
 	}
